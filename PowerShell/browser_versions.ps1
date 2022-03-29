@@ -1,5 +1,5 @@
-﻿# This script scans popular web browsers on Windows OS and outputs the version of each. Currently supported browsers are: Microsoft Edge, Google Chrome, Brave Browser, and Mozilla Firefox.
- # Check Chrome Version
+# This script scans popular web browsers on Windows OS and outputs the version of each. Currently supported browsers are: Microsoft Edge, Google Chrome, Brave Browser, and Mozilla Firefox.
+# Check Chrome Version
 try {
     $ChromeBin = "C:\Program Files\Google\Chrome\Application\chrome.exe"
     $ChromeVersion = [System.Diagnostics.FileVersionInfo]::GetVersionInfo($ChromeBin).ProductVersion
